@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+}
+.container img{
+    max-width: 10%;
+    float: left;
+    position: absolute;
+}
+nav{
+    background-color: #f2f2f2;
+    text-align: end;
+    background-color: black;
+    color: white;
+    padding: 5px;;
+}
+
+li{
+    display: inline-block;
+    font-size: x-large;
+    padding: 10px;
+    align-items: baseline;
+}
+
+li a{
+    text-decoration: none;
+    color: white;
+    text-align: end;
+}
+
+li a:hover{
+    background-color: #635e5e;
+}
+
+.destaque{
+    background: url("../img/backgroundDestaque.jpg") ;
+    background-size: cover;
+    padding: 5%;
+}
+
+.destaque h2{
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.destaque p{
+    text-align: center;
+    font-size: large;
+    font-size: 30px;
+}
+
+.destaque .html{
+    color: rgb(255, 94, 0);
+}
+
+.destaque .css{
+    color: rgb(0, 47, 255);
+}
+
+.destaque .JS{
+    color: rgb(226, 199, 45);}
+
+.html5{
+        background: rgb(226, 107, 71) ;
+        background-size: cover;
+        padding: 5%;
+        text-align: center;
+    }
+
+.html5 img{
+    float: left;
+    position: relative;
+    max-width: 90%;
+}
+
+.html5 .htmlTitle{
+    margin-left: 4%;
+    text-align: justify;
+    color: #000000;
+    font-weight: 1000;
+    font-size: 40px;
+}
+
+.html5 .container p{
+    text-indent: 4em;
+    text-align: justify;
+}
+
+.css3{
+    background: rgb(71, 99, 226) ;
+    background-size: cover;
+    padding: 5%;
+    text-align: center;
+    float: left;
+}
+
+.css3 img{
+    float: right;
+    position: relative;
+    max-width: 90%;
+}
+
+.css3 .cssTitle{
+    text-align: end;
+    margin-right: 5%;
+    color: #000000;
+    font-weight: 1000;  
+    font-size: 40px;
+}
+
+.css3 .container p{
+text-indent: 4em;
+text-align: justify;
+}
+
+.JavaScript{
+    background: rgb(224, 226, 68) ;
+    background-size: cover;
+    padding: 5%;
+    text-align: center;
+}
+
+.JavaScript img{
+float: left;
+position: relative;
+max-width: 90%;
+}
+
+.JavaScript .jsTitle{
+margin-left: 7%;
+text-align: justify;
+color: #000000;
+font-weight: 1000;
+font-size: 40px;
+}
+
+.JavaScript .container p{
+text-indent: 4em;
+text-align: justify;
+}
+
+
+.button{
+    background-color: #000000;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 1% 5%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+}
