@@ -1,7 +1,7 @@
 body{
     margin: 0;
 }
-.container img{
+header .container img{
     max-width: 10%;
     float: left;
     position: absolute;
@@ -14,20 +14,20 @@ nav{
     padding: 5px;;
 }
 
-li{
+ header li{
     display: inline-block;
     font-size: x-large;
     padding: 10px;
     align-items: baseline;
 }
 
-li a{
+header li a{
     text-decoration: none;
     color: white;
     text-align: end;
 }
 
-li a:hover{
+header li a:hover{
     background-color: #635e5e;
 }
 
@@ -92,7 +92,7 @@ li a:hover{
     background-size: cover;
     padding: 5%;
     text-align: center;
-    float: left;
+
 }
 
 .css3 img{
@@ -110,34 +110,34 @@ li a:hover{
 }
 
 .css3 .container p{
-text-indent: 4em;
-text-align: justify;
+    text-indent: 4em;
+    text-align: justify;
 }
 
-.JavaScript{
+.javascript{
     background: rgb(224, 226, 68) ;
     background-size: cover;
     padding: 5%;
     text-align: center;
 }
 
-.JavaScript img{
-float: left;
-position: relative;
-max-width: 90%;
+.javascript img{
+    float: left;
+    position: relative;
+    max-width: 90%;
+    }
+
+.javascript .jsTitle{   
+    margin-left: 7%;
+    text-align: justify;
+    color: #000000;
+    font-weight: 1000;
+    font-size: 40px;
 }
 
-.JavaScript .jsTitle{
-margin-left: 7%;
-text-align: justify;
-color: #000000;
-font-weight: 1000;
-font-size: 40px;
-}
-
-.JavaScript .container p{
-text-indent: 4em;
-text-align: justify;
+.javascript .container p{
+    text-indent: 4em;
+    text-align: justify;
 }
 
 
