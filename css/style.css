@@ -11,7 +11,7 @@ nav{
     text-align: end;
     background-color: black;
     color: white;
-    padding: 5px;;
+    padding: 5px;
 }
 
  header li{
@@ -92,7 +92,6 @@ header li a:hover{
     background-size: cover;
     padding: 5%;
     text-align: center;
-
 }
 
 .css3 img{
@@ -140,6 +139,66 @@ header li a:hover{
     text-align: justify;
 }
 
+.links{
+    background: rgb(183, 184, 176) ;
+    background-size: cover;
+    padding: 5%;
+}
+.links .container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    margin-left: 5%;
+}
+
+.links .titleLink{
+    text-align: center;
+    color: #000000;
+    font-size: 40px;
+    padding: 10px;
+}
+
+.links li{
+    font-size: x-large;
+    align-items: center;
+    list-style: none;
+}
+
+.links li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    text-align: end;
+    font-size: medium;
+}
+
+.links img{
+    max-width: 15%;
+    margin-right: 5%;
+}
+
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    background-color: #000000;
+    text-align:start;
+    padding: 5px;
+}
+
+footer p {
+    text-align: start;
+    font-size: large;
+}
+
+footer a {
+    float: right;
+}
+
+footer a img{
+    max-width: 70%;
+
+}
 
 .button{
     background-color: #000000;
