@@ -1,219 +1,489 @@
-body{
-    margin: 0;
-}
-header .container img{
-    max-width: 10%;
-    float: left;
-    position: absolute;
-}
-nav{
-    background-color: #f2f2f2;
-    text-align: end;
-    background-color: black;
-    color: white;
-    padding: 5px;
-}
+@media screen and (max-width: 799px) {
+    body {
+        margin: 0;
+        background-color: #f1f1f1;
+    }
+    header .container img{
+        max-width: 30%;
+        float: left;
+    }
+    nav{
+        background-color: #f2f2f2;
+        text-align: end;
+        background-color: black;
+        color: white;
+        padding: 5px;
+    }    
+    header li{
+        display: list-item;
+        font-size: x-large;
+        padding: 10px;
+        align-items: baseline;
+        list-style: none;
+    }
+    header li a{
+        text-decoration: none;
+        color: white;
+        text-align: end;
+    }
+    .destaque{
+        background: url("../img/backgroundDestaque.jpg") ;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 100vh; 
+        width: 100vw; 
+        display: flex;         
+        justify-content: center; 
+        align-items: center;
+        flex-direction: column;
+    }
+    .destaque h2{
+        text-align: center;
+        color: #000000;
+        font-size: 40px;
+        margin-bottom: 10%;
+    }
+    .destaque p{
+        text-align: center;
+        font-size: large;
+        font-size: 30px;
+        margin-top: -5%;
+    }
 
- header li{
-    display: inline-block;
-    font-size: x-large;
-    padding: 10px;
-    align-items: baseline;
-}
+    .destaque .html{
+        color: rgb(255, 94, 0);
+    }
 
-header li a{
-    text-decoration: none;
-    color: white;
-    text-align: end;
-}
+    .destaque .css{
+        color: rgb(0, 47, 255);
+    }
 
-header li a:hover{
-    background-color: #635e5e;
-}
+    .destaque .JS{
+        color: rgb(226, 199, 45);}
 
-.destaque{
-    background: url("../img/backgroundDestaque.jpg") ;
-    background-size: cover;
-    padding: 5%;
-}
-
-.destaque h2{
-    text-align: center;
-    color: #000000;
-    font-size: 40px;
-    padding: 10px;
-}
-
-.destaque p{
-    text-align: center;
-    font-size: large;
-    font-size: 30px;
-}
-
-.destaque .html{
-    color: rgb(255, 94, 0);
-}
-
-.destaque .css{
-    color: rgb(0, 47, 255);
-}
-
-.destaque .JS{
-    color: rgb(226, 199, 45);}
-
-.html5{
+    .html5{
+        padding-top: 5%;
+        padding-bottom: 5%;
         background: rgb(226, 107, 71) ;
+        background-size: cover;
+        height: 100vh; 
+        width: 100vw; 
+        text-align: center;
+    }
+
+    .html5 img{
+        position: relative;
+        max-width: 90%;
+    }
+
+    .html5 .htmlTitle{
+        margin-left: 4%;
+        text-align: center;
+        color: #000000;
+        font-weight: 1000;
+        font-size: 40px;
+    }
+
+    .html5 h3{
+        font-size: x-large;
+    }
+
+    .html5 .container p{
+        text-indent: 4em;
+        text-align: justify;
+        font-size: x-large;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 10%;
+    }
+
+    .css3{
+        padding-top: 5%;
+        
+        background: rgb(58, 93, 248) ;
+        background-size: cover;
+        height: 100vh; 
+        width: 100vw; 
+        text-align: center;
+    }
+
+    .css3 img{
+        position: relative;
+        max-width: 90%;
+    }
+
+    .css3 .cssTitle{
+    
+        text-align: center;
+        color: #000000;
+        font-weight: 1000;
+        font-size: 40px;
+    }
+
+    .css3 h3{
+        font-size: x-large;
+    }
+
+    .css3 .container p{
+        text-indent: 4em;
+        text-align: justify;
+        font-size: x-large;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 10%;
+    }
+
+    .javascript{
+        padding-top: 5%;
+        background: rgb(226, 199, 45); ;
+        background-size: cover;
+        height: 100vh; 
+        width: 100vw; 
+        text-align: center;
+    }
+
+    .javascript img{
+        position: relative;
+        max-width: 90%;
+    }
+
+    .javascript .jsTitle{
+    
+        text-align: center;
+        color: #000000;
+        font-weight: 1000;
+        font-size: 40px;
+    }
+
+    .javascript h3{
+        margin-right: 3%;
+        font-size: x-large;
+    }
+
+    .javascript .container p{
+        text-indent: 4em;
+        text-align: justify;
+        font-size: x-large;
+        margin-top: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 10%;
+    }
+
+    .links{
+        background: rgb(183, 184, 176) ;
+        background-size: cover;
+        height: 165vh;
+        width: 100vw;
+        padding: 10px;
+    }
+    .links .container{
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        margin-left: 5%;
+    }
+
+    .links .titleLink{
+        text-align: center;
+        color: #000000;
+        font-size: 40px;
+        padding: 10px;
+    }
+
+    .links .container h2{
+        margin-left: -20%;
+        text-align: center;
+        color: #000000;
+    }
+    
+    .links li{
+        font-size: x-large;
+        align-items: center;
+        list-style: none;
+    }
+
+    .links li a{
+        font-weight: bold;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: medium;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .links img{
+        max-width: 15%;
+        margin-right: 5%;
+    }
+
+    footer {
+        display: grid;
+        color: white;
+        background-color: #000000;
+        text-align:center;
+        align-items: center;
+        padding: 10px;
+    }
+
+    footer p {
+        text-align: center;
+        font-size: large;
+    }
+
+    footer a img{
+        max-width: 70%;
+
+    }
+    
+    .button{
+        background-color: #000000;
+        color: white;
+        border: none;
+        border-radius: 40px;
+        padding: 4% 8%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-weight: bold;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    body{
+        margin: 0;
+        background-color: #000000;
+    }
+    header .container img{
+        max-width: 10%;
+        float: left;
+        position: absolute;
+    }
+    nav{
+        background-color: #f2f2f2;
+        text-align: end;
+        background-color: black;
+        color: white;
+        padding: 5px;
+    }
+
+    header li{
+        display: inline-block;
+        font-size: x-large;
+        padding: 10px;
+        align-items: baseline;
+    }
+
+    header li a{
+        text-decoration: none;
+        color: white;
+        text-align: end;
+    }
+
+    header li a:hover{
+        background-color: #635e5e;
+    }
+
+    .destaque{
+        background: url("../img/backgroundDestaque.jpg") ;
+        background-size: cover;
+        padding: 5%;
+    }
+
+    .destaque h2{
+        text-align: center;
+        color: #000000;
+        font-size: 40px;
+        padding: 10px;
+    }
+
+    .destaque p{
+        text-align: center;
+        font-size: large;
+        font-size: 30px;
+    }
+
+    .destaque .html{
+        color: rgb(255, 94, 0);
+    }
+
+    .destaque .css{
+        color: rgb(0, 47, 255);
+    }
+
+    .destaque .JS{
+        color: rgb(226, 199, 45);}
+
+    .html5{
+            background: rgb(226, 107, 71) ;
+            background-size: cover;
+            padding: 5%;
+            text-align: center;
+        }
+
+    .html5 img{
+        float: left;
+        position: relative;
+        max-width: 90%;
+    }
+
+    .html5 .htmlTitle{
+        margin-left: 4%;
+        text-align: justify;
+        color: #000000;
+        font-weight: 1000;
+        font-size: 40px;
+    }
+
+    .html5 .container p{
+        text-indent: 4em;
+        text-align: justify;
+    }
+
+    .css3{
+        background: rgb(71, 99, 226) ;
         background-size: cover;
         padding: 5%;
         text-align: center;
     }
 
-.html5 img{
-    float: left;
-    position: relative;
-    max-width: 90%;
-}
-
-.html5 .htmlTitle{
-    margin-left: 4%;
-    text-align: justify;
-    color: #000000;
-    font-weight: 1000;
-    font-size: 40px;
-}
-
-.html5 .container p{
-    text-indent: 4em;
-    text-align: justify;
-}
-
-.css3{
-    background: rgb(71, 99, 226) ;
-    background-size: cover;
-    padding: 5%;
-    text-align: center;
-}
-
-.css3 img{
-    float: right;
-    position: relative;
-    max-width: 90%;
-}
-
-.css3 .cssTitle{
-    text-align: end;
-    margin-right: 5%;
-    color: #000000;
-    font-weight: 1000;  
-    font-size: 40px;
-}
-
-.css3 .container p{
-    text-indent: 4em;
-    text-align: justify;
-}
-
-.javascript{
-    background: rgb(224, 226, 68) ;
-    background-size: cover;
-    padding: 5%;
-    text-align: center;
-}
-
-.javascript img{
-    float: left;
-    position: relative;
-    max-width: 90%;
+    .css3 img{
+        float: right;
+        position: relative;
+        max-width: 90%;
     }
 
-.javascript .jsTitle{   
-    margin-left: 7%;
-    text-align: justify;
-    color: #000000;
-    font-weight: 1000;
-    font-size: 40px;
-}
+    .css3 .cssTitle{
+        text-align: end;
+        margin-right: 5%;
+        color: #000000;
+        font-weight: 1000;  
+        font-size: 40px;
+    }
 
-.javascript .container p{
-    text-indent: 4em;
-    text-align: justify;
-}
+    .css3 .container p{
+        text-indent: 4em;
+        text-align: justify;
+    }
 
-.links{
-    background: rgb(183, 184, 176) ;
-    background-size: cover;
-    padding: 5%;
-}
-.links .container{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    width: 100%;
-    margin-left: 5%;
-}
+    .javascript{
+        background: rgb(224, 226, 68) ;
+        background-size: cover;
+        padding: 5%;
+        text-align: center;
+    }
 
-.links .titleLink{
-    text-align: center;
-    color: #000000;
-    font-size: 40px;
-    padding: 10px;
-}
+    .javascript img{
+        float: left;
+        position: relative;
+        max-width: 90%;
+        }
 
-.links li{
-    font-size: x-large;
-    align-items: center;
-    list-style: none;
-}
+    .javascript .jsTitle{   
+        margin-left: 7%;
+        text-align: justify;
+        color: #000000;
+        font-weight: 1000;
+        font-size: 40px;
+    }
 
-.links li a{
-    display: flex;
-    font-weight: bold;
-    text-decoration: none;
-    color: rgb(0, 0, 0);
-    text-align: center;
-    font-size: medium;
-    align-items: center;
-    padding: 0px;
-}
+    .javascript .container p{
+        text-indent: 4em;
+        text-align: justify;
+    }
 
-.links img{
-    max-width: 15%;
-    margin-right: 5%;
-}
+    .links{
+        background: rgb(183, 184, 176) ;
+        background-size: cover;
+        padding: 5%;
+    }
+    .links .container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        width: 100%;
+        margin-left: 5%;
+    }
 
-footer {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    color: white;
-    background-color: #000000;
-    text-align:start;
-    padding: 5px;
-}
+    .links .titleLink{
+        text-align: center;
+        color: #000000;
+        font-size: 40px;
+        padding: 10px;
+    }
 
-footer p {
-    text-align: start;
-    font-size: large;
-}
+    .links li{
+        font-size: x-large;
+        align-items: center;
+        list-style: none;
+    }
 
-footer a {
-    float: right;
-}
+    .links li a{
+        display: flex;
+        font-weight: bold;
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        text-align: center;
+        font-size: medium;
+        align-items: center;
+        padding: 0px;
+    }
 
-footer a img{
-    max-width: 70%;
+    .links img{
+        max-width: 15%;
+        margin-right: 5%;
+    }
 
-}
+    footer {
+        display: grid;
+        color: white;
+        background-color: #000000;
+        text-align:start;
+        padding: 5px;
+    }
 
-.button{
-    background-color: #000000;
-    color: white;
-    border: none;
-    border-radius: 40px;
-    padding: 1% 5%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
-    cursor: pointer;
-    font-weight: bold;
+    footer p {
+        text-align: start;
+        font-size: large;
+        float: left;
+    }
+
+    footer .container {
+        display: inline-block;
+
+    }
+
+    footer .container .logos{
+        display: table-row-group;
+        float: right;
+
+    }
+
+    footer p {
+        display: table-row-group;
+    }
+
+    footer a img{
+        max-width: 70%;
+    }
+
+    .button{
+        background-color: #000000;
+        color: white;
+        border: none;
+        border-radius: 40px;
+        padding: 1% 5%;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        font-weight: bold;
+    }
 }
